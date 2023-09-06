@@ -32,7 +32,6 @@
   
 <script setup>
 import axios from "axios";
-import { response } from "express";
 import { ref, onMounted } from "vue";
 const products = ref([]);
 onMounted(async () => {
